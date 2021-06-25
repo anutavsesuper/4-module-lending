@@ -340,7 +340,7 @@ a {
   padding-top: 10%;
   padding-bottom: 10%;
   display: grid;
-  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 35%;
   height: 200px;
 
   /* Black */
@@ -352,6 +352,7 @@ a {
   display: grid;
   grid-template-columns: 20% 15% 20% 15% 30%;
   font-family: 'Aeroport Light';
+  align-content: center;
 }
 
 .a_footer {
@@ -364,6 +365,40 @@ a {
 }
 
 .b_footer {
+  /* White */
+  font-family: Aeroport;
+  font-style: normal;
+  font-size: 16px;
+  color: #FBFCFF;
+}
+
+.b_footer_email {
+  border-radius: 5px;
+  background: rgb(251 252 255);
+
+  /* Black 50% */
+
+  color: rgba(11, 3, 36, 0.5);
+  height: 250%;
+  align-self: center;
+
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  grid-template-columns: 20% 15% 20% 15% 20%;
+  /* height: 40%; */
+  align-items: flex-end;
+}
+
+.icon_a {
+  max-height: 40px;
+  margin-right: 20px;
+}
+
+.с_footer {
   /* White */
   font-family: Aeroport;
   font-style: normal;
