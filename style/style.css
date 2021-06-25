@@ -1,0 +1,334 @@
+/* 1% height = 16 px */
+
+@import "reset.css";
+
+@font-face {
+  font-family: 'Aeroport Light';
+  src: url("../fonts/Aeroport Light.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Aeroport Regular';
+  src: url("../fonts/Aeroport Regular.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Aeroport Bold';
+  src: url("../fonts/Aeroport Bold.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+head,
+html,
+body {
+  /* White */
+  position: relative;
+  background: #FBFCFF;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 1% 8%;
+  font-family: 'Aeroport Light';
+  height: 100px;
+  box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 100);
+}
+
+.logo {
+  position: absolute;
+  width: 2%;
+  overflow: hidden;
+  margin-left: -5%;
+}
+
+.a_menu,
+.a_menu_button_R,
+.a_menu_button_V {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  /* Black */
+
+  color: #0B0324;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.a_menu_button_R,
+.a_menu_button_V {
+
+  font-family: 'Aeroport Bold';
+
+  /* White */
+
+  color: #FBFCFF;
+
+  height: 36px;
+  margin-top: auto;
+  margin-bottom: auto;
+
+  /* Black */
+
+  background: #0B0324;
+  border-radius: 5px;
+}
+
+.a_menu_button_V {
+  border: 1px solid #0B0324;
+
+  /* White */
+
+  background: #FBFCFF;
+
+  /* Black */
+
+  color: #0B0324;
+}
+
+.one {
+  padding: 10%;
+  display: grid;
+  grid-template-rows: 20% 12% 20% 20% 20%;
+  height: 515px;
+}
+
+
+.name {
+  width: 550px;
+  height: 100px;
+
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+}
+
+.first_heading {
+  font-family: 'Aeroport Light';
+  font-size: 36px;
+  line-height: 49px;
+  text-transform: uppercase;
+}
+
+
+.b_button_P {
+  font-family: 'Aeroport Bold';
+  color: #FBFCFF;
+  padding: 5px 20px;
+  width: 250px;
+  height: 55px;
+  font-size: 24px;
+  line-height: 33px;
+  align-items: center;
+  text-align: center;
+  background: #90C0E9;
+  border-radius: 5px;
+
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+}
+
+.first_image {
+  position: absolute;
+  width: 773.25px;
+  height: 760.68px;
+  right: -100px;
+  top: 247.77px;
+}
+
+.two {
+  padding: 10%;
+  display: grid;
+  grid-template-rows: 15% 10% 70%;
+  height: 845px;
+
+  /* Black */
+
+  background: #0B0324;
+}
+
+.first_heading_B {
+  /* Сохраняй полезные статьи от лучших профессионалов */
+
+  width: 782px;
+  height: 112px;
+  top: 144px;
+
+  font-family: Aeroport;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 56px;
+
+  /* White */
+
+  color: #FBFCFF;
+}
+
+.one_card,
+.two_card {
+  max-height: 600px;
+  height: 100%;
+  /* height: -webkit-fill-available; */
+}
+
+.one_card {
+  margin-right: 2%;
+}
+
+.three {
+  padding: 10%;
+  display: grid;
+  grid-template-rows: 55% 20% 25%;
+  height: 310px;
+
+  /* Black */
+
+  background: #FBFCFF;
+}
+
+.first_heading_C {
+  /* Будь активным и получай бонусы от наших партнеров */
+
+  width: 782px;
+  height: 112px;
+  top: 144px;
+
+  font-family: Aeroport;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 56px;
+
+  /* White */
+
+  color: #0B0324;
+}
+
+.b_button_Y {
+  font-family: 'Aeroport Bold';
+  color: #FBFCFF;
+  padding: 5px 20px;
+  width: 250px;
+  height: 55px;
+  font-size: 24px;
+  line-height: 33px;
+  align-items: center;
+  text-align: center;
+  background: #FFB2A1;
+  border-radius: 5px;
+
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+}
+
+.save_icon {
+  right: -60px;
+  position: absolute;
+  height: 455.02px;
+  top: 2215.63px;
+}
+
+.four {
+  padding: 10%;
+  display: grid;
+  grid-template-rows: 14% 7% 8% 5% 8% 5% 8% 5% 8% 5% 8% 5% 8% 5%;
+  height: 845px;
+
+  /* Black */
+
+  background: #0B0324;
+}
+
+.first_heading_D {
+  /* Занимайся благотворительностью */
+
+  width: 782px;
+  height: 112px;
+  top: 144px;
+
+  font-family: Aeroport;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 56px;
+
+  /* White */
+
+  color: #FBFCFF;
+}
+
+.four_name_and_number_A {
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+
+.four_number {
+  /* 3 160 */
+
+  font-family: Aeroport;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 56px;
+
+  /* White */
+
+  color: #FBFCFF;
+}
+
+.four_name {
+  /* Нашли свой дом */
+
+  font-family: Aeroport;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 75px;
+
+  /* White */
+
+  color: #FBFCFF;
+}
+
+.four_S {
+  /* Нашли свой дом */
+
+  font-family: Aeroport;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 16px;
+  /* line-height: 16px; */
+
+  /* White 60% */
+
+  color: rgba(251, 252, 255, 0.6);
+}
+
+.five {
+  padding: 10%;
+  display: grid;
+  grid-template-rows: 20% 50% 25%;
+  height: 310px;
+  background: rgb(251 252 255);
+}
+
+
+
+
+
+
+/* avs */
